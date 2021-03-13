@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19C129273C96F04E00D265C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129263C96F04E00D265C5 /* AppDelegate.swift */; };
+		19C129293C96F04E00D265C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129283C96F04E00D265C5 /* SceneDelegate.swift */; };
+		19C1292B3C96F04E00D265C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C1292A3C96F04E00D265C5 /* ViewController.swift */; };
+		19C1292E3C96F04E00D265C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C1292C3C96F04E00D265C5 /* Main.storyboard */; };
+		19C129303C96F04E00D265C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C1292F3C96F04E00D265C5 /* Assets.xcassets */; };
+		19C129333C96F04E00D265C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C129313C96F04E00D265C5 /* LaunchScreen.storyboard */; };
+		19C1293E3C96F04E00D265C5 /* ReebokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C1293D3C96F04E00D265C5 /* ReebokTests.swift */; };
+		19C129493C96F04E00D265C5 /* ReebokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129483C96F04E00D265C5 /* ReebokUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19C1293A3C96F04E00D265C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C1291B3C96F04E00D265C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C129223C96F04E00D265C5;
+			remoteInfo = Reebok;
+		};
+		19C129453C96F04E00D265C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C1291B3C96F04E00D265C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C129223C96F04E00D265C5;
+			remoteInfo = Reebok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19C129233C96F04E00D265C5 /* Reebok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reebok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C129263C96F04E00D265C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19C129283C96F04E00D265C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19C1292A3C96F04E00D265C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19C1292D3C96F04E00D265C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19C1292F3C96F04E00D265C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19C129323C96F04E00D265C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19C129343C96F04E00D265C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C129393C96F04E00D265C5 /* ReebokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReebokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C1293D3C96F04E00D265C5 /* ReebokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReebokTests.swift; sourceTree = "<group>"; };
+		19C1293F3C96F04E00D265C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C129443C96F04E00D265C5 /* ReebokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReebokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C129483C96F04E00D265C5 /* ReebokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReebokUITests.swift; sourceTree = "<group>"; };
+		19C1294A3C96F04E00D265C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19C129203C96F04E00D265C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C129363C96F04E00D265C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C129413C96F04E00D265C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C1291A3C96F04E00D265C5 = {
+			isa = PBXGroup;
+			children = (
+				19C129253C96F04E00D265C5 /* Reebok */,
+				19C1293C3C96F04E00D265C5 /* ReebokTests */,
+				19C129473C96F04E00D265C5 /* ReebokUITests */,
+				19C129243C96F04E00D265C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19C129243C96F04E00D265C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19C129233C96F04E00D265C5 /* Reebok.app */,
+				19C129393C96F04E00D265C5 /* ReebokTests.xctest */,
+				19C129443C96F04E00D265C5 /* ReebokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C129253C96F04E00D265C5 /* Reebok */ = {
+			isa = PBXGroup;
+			children = (
+				19C129263C96F04E00D265C5 /* AppDelegate.swift */,
+				19C129283C96F04E00D265C5 /* SceneDelegate.swift */,
+				19C1292A3C96F04E00D265C5 /* ViewController.swift */,
+				19C1292C3C96F04E00D265C5 /* Main.storyboard */,
+				19C1292F3C96F04E00D265C5 /* Assets.xcassets */,
+				19C129313C96F04E00D265C5 /* LaunchScreen.storyboard */,
+				19C129343C96F04E00D265C5 /* Info.plist */,
+			);
+			path = Reebok;
+			sourceTree = "<group>";
+		};
+		19C1293C3C96F04E00D265C5 /* ReebokTests */ = {
+			isa = PBXGroup;
+			children = (
+				19C1293D3C96F04E00D265C5 /* ReebokTests.swift */,
+				19C1293F3C96F04E00D265C5 /* Info.plist */,
+			);
+			path = ReebokTests;
+			sourceTree = "<group>";
+		};
+		19C129473C96F04E00D265C5 /* ReebokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19C129483C96F04E00D265C5 /* ReebokUITests.swift */,
+				19C1294A3C96F04E00D265C5 /* Info.plist */,
+			);
+			path = ReebokUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19C129223C96F04E00D265C5 /* Reebok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C1294D3C96F04E00D265C5 /* Build configuration list for PBXNativeTarget "Reebok" */;
+			buildPhases = (
+				19C1291F3C96F04E00D265C5 /* Sources */,
+				19C129203C96F04E00D265C5 /* Frameworks */,
+				19C129213C96F04E00D265C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reebok;
+			productName = Reebok;
+			productReference = 19C129233C96F04E00D265C5 /* Reebok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19C129383C96F04E00D265C5 /* ReebokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C129503C96F04E00D265C5 /* Build configuration list for PBXNativeTarget "ReebokTests" */;
+			buildPhases = (
+				19C129353C96F04E00D265C5 /* Sources */,
+				19C129363C96F04E00D265C5 /* Frameworks */,
+				19C129373C96F04E00D265C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C1293B3C96F04E00D265C5 /* PBXTargetDependency */,
+			);
+			name = ReebokTests;
+			productName = ReebokTests;
+			productReference = 19C129393C96F04E00D265C5 /* ReebokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19C129433C96F04E00D265C5 /* ReebokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C129533C96F04E00D265C5 /* Build configuration list for PBXNativeTarget "ReebokUITests" */;
+			buildPhases = (
+				19C129403C96F04E00D265C5 /* Sources */,
+				19C129413C96F04E00D265C5 /* Frameworks */,
+				19C129423C96F04E00D265C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C129463C96F04E00D265C5 /* PBXTargetDependency */,
+			);
+			name = ReebokUITests;
+			productName = ReebokUITests;
+			productReference = 19C129443C96F04E00D265C5 /* ReebokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19C1291B3C96F04E00D265C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					19C129223C96F04E00D265C5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					19C129383C96F04E00D265C5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 19C129223C96F04E00D265C5;
+					};
+					19C129433C96F04E00D265C5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 19C129223C96F04E00D265C5;
+					};
+				};
+			};
+			buildConfigurationList = 19C1291E3C96F04E00D265C5 /* Build configuration list for PBXProject "Reebok" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19C1291A3C96F04E00D265C5;
+			productRefGroup = 19C129243C96F04E00D265C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19C129223C96F04E00D265C5 /* Reebok */,
+				19C129383C96F04E00D265C5 /* ReebokTests */,
+				19C129433C96F04E00D265C5 /* ReebokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19C129213C96F04E00D265C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C129333C96F04E00D265C5 /* LaunchScreen.storyboard in Resources */,
+				19C129303C96F04E00D265C5 /* Assets.xcassets in Resources */,
+				19C1292E3C96F04E00D265C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C129373C96F04E00D265C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C129423C96F04E00D265C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19C1291F3C96F04E00D265C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C1292B3C96F04E00D265C5 /* ViewController.swift in Sources */,
+				19C129273C96F04E00D265C5 /* AppDelegate.swift in Sources */,
+				19C129293C96F04E00D265C5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C129353C96F04E00D265C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C1293E3C96F04E00D265C5 /* ReebokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C129403C96F04E00D265C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C129493C96F04E00D265C5 /* ReebokUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19C1293B3C96F04E00D265C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C129223C96F04E00D265C5 /* Reebok */;
+			targetProxy = 19C1293A3C96F04E00D265C5 /* PBXContainerItemProxy */;
+		};
+		19C129463C96F04E00D265C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C129223C96F04E00D265C5 /* Reebok */;
+			targetProxy = 19C129453C96F04E00D265C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19C1292C3C96F04E00D265C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C1292D3C96F04E00D265C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19C129313C96F04E00D265C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C129323C96F04E00D265C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19C1294B3C96F04E00D265C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19C1294C3C96F04E00D265C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19C1294E3C96F04E00D265C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Reebok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.subin.Reebok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19C1294F3C96F04E00D265C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Reebok/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.subin.Reebok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19C129513C96F04E00D265C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReebokTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.subin.ReebokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reebok.app/Reebok";
+			};
+			name = Debug;
+		};
+		19C129523C96F04E00D265C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReebokTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.subin.ReebokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reebok.app/Reebok";
+			};
+			name = Release;
+		};
+		19C129543C96F04E00D265C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReebokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.subin.ReebokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reebok;
+			};
+			name = Debug;
+		};
+		19C129553C96F04E00D265C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReebokUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.subin.ReebokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reebok;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C1291E3C96F04E00D265C5 /* Build configuration list for PBXProject "Reebok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C1294B3C96F04E00D265C5 /* Debug */,
+				19C1294C3C96F04E00D265C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C1294D3C96F04E00D265C5 /* Build configuration list for PBXNativeTarget "Reebok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C1294E3C96F04E00D265C5 /* Debug */,
+				19C1294F3C96F04E00D265C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C129503C96F04E00D265C5 /* Build configuration list for PBXNativeTarget "ReebokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C129513C96F04E00D265C5 /* Debug */,
+				19C129523C96F04E00D265C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C129533C96F04E00D265C5 /* Build configuration list for PBXNativeTarget "ReebokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C129543C96F04E00D265C5 /* Debug */,
+				19C129553C96F04E00D265C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19C1291B3C96F04E00D265C5 /* Project object */;
+}
