@@ -15,6 +15,18 @@
 		19C129333C96F04E00D265C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C129313C96F04E00D265C5 /* LaunchScreen.storyboard */; };
 		19C1293E3C96F04E00D265C5 /* ReebokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C1293D3C96F04E00D265C5 /* ReebokTests.swift */; };
 		19C129493C96F04E00D265C5 /* ReebokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129483C96F04E00D265C5 /* ReebokUITests.swift */; };
+		19C129623C96F04E00D265C5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129613C96F04E00D265C5 /* LoginVC.swift */; };
+		19C1296A3C96F04E00D265C5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129693C96F04E00D265C5 /* RegisterVC.swift */; };
+		19C1296F3C96F04E00D265C5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C1296E3C96F04E00D265C5 /* HomeVC.swift */; };
+		19C129743C96F04E00D265C5 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129733C96F04E00D265C5 /* MapVC.swift */; };
+		19C1297A3C96F04E00D265C5 /* DrawVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129793C96F04E00D265C5 /* DrawVC.swift */; };
+		19C1297F3C96F04E00D265C5 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C1297E3C96F04E00D265C5 /* InfoVC.swift */; };
+		19C129843C96F04E00D265C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129833C96F04E00D265C5 /* Constants.swift */; };
+		19C129893C96F04E00D265C5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C129883C96F04E00D265C5 /* Home.storyboard */; };
+		19C129A33C96F04E00D265C5 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129A23C96F04E00D265C5 /* TabbarController.swift */; };
+		19C129A93C96F04E00D265C5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129A83C96F04E00D265C5 /* User.swift */; };
+		19C129B13C96F04E00D265C5 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129B03C96F04E00D265C5 /* Validation.swift */; };
+		19C129B63C96F04E00D265C5 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129B53C96F04E00D265C5 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		19C129443C96F04E00D265C5 /* ReebokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReebokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C129483C96F04E00D265C5 /* ReebokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReebokUITests.swift; sourceTree = "<group>"; };
 		19C1294A3C96F04E00D265C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C129613C96F04E00D265C5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		19C129693C96F04E00D265C5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		19C1296E3C96F04E00D265C5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		19C129733C96F04E00D265C5 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		19C129793C96F04E00D265C5 /* DrawVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawVC.swift; sourceTree = "<group>"; };
+		19C1297E3C96F04E00D265C5 /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		19C129833C96F04E00D265C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		19C129883C96F04E00D265C5 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		19C129A23C96F04E00D265C5 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		19C129A83C96F04E00D265C5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		19C129B03C96F04E00D265C5 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		19C129B53C96F04E00D265C5 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +103,10 @@
 		19C1291A3C96F04E00D265C5 = {
 			isa = PBXGroup;
 			children = (
+				19C129A73C96F04E00D265C5 /* Model */,
+				19C129783C96F04E00D265C5 /* Util */,
+				19C129603C96F04E00D265C5 /* Stroyboard */,
+				19C1295C3C96F04E00D265C5 /* ViewController */,
 				19C129253C96F04E00D265C5 /* Reebok */,
 				19C1293C3C96F04E00D265C5 /* ReebokTests */,
 				19C129473C96F04E00D265C5 /* ReebokUITests */,
@@ -101,8 +129,6 @@
 			children = (
 				19C129263C96F04E00D265C5 /* AppDelegate.swift */,
 				19C129283C96F04E00D265C5 /* SceneDelegate.swift */,
-				19C1292A3C96F04E00D265C5 /* ViewController.swift */,
-				19C1292C3C96F04E00D265C5 /* Main.storyboard */,
 				19C1292F3C96F04E00D265C5 /* Assets.xcassets */,
 				19C129313C96F04E00D265C5 /* LaunchScreen.storyboard */,
 				19C129343C96F04E00D265C5 /* Info.plist */,
@@ -126,6 +152,48 @@
 				19C1294A3C96F04E00D265C5 /* Info.plist */,
 			);
 			path = ReebokUITests;
+			sourceTree = "<group>";
+		};
+		19C1295C3C96F04E00D265C5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				19C1292A3C96F04E00D265C5 /* ViewController.swift */,
+				19C129613C96F04E00D265C5 /* LoginVC.swift */,
+				19C129693C96F04E00D265C5 /* RegisterVC.swift */,
+				19C1296E3C96F04E00D265C5 /* HomeVC.swift */,
+				19C129733C96F04E00D265C5 /* MapVC.swift */,
+				19C129793C96F04E00D265C5 /* DrawVC.swift */,
+				19C1297E3C96F04E00D265C5 /* InfoVC.swift */,
+				19C129A23C96F04E00D265C5 /* TabbarController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		19C129603C96F04E00D265C5 /* Stroyboard */ = {
+			isa = PBXGroup;
+			children = (
+				19C1292C3C96F04E00D265C5 /* Main.storyboard */,
+				19C129883C96F04E00D265C5 /* Home.storyboard */,
+			);
+			path = Stroyboard;
+			sourceTree = "<group>";
+		};
+		19C129783C96F04E00D265C5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				19C129833C96F04E00D265C5 /* Constants.swift */,
+				19C129B53C96F04E00D265C5 /* Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		19C129A73C96F04E00D265C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19C129A83C96F04E00D265C5 /* User.swift */,
+				19C129B03C96F04E00D265C5 /* Validation.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +302,7 @@
 				19C129333C96F04E00D265C5 /* LaunchScreen.storyboard in Resources */,
 				19C129303C96F04E00D265C5 /* Assets.xcassets in Resources */,
 				19C1292E3C96F04E00D265C5 /* Main.storyboard in Resources */,
+				19C129893C96F04E00D265C5 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +329,18 @@
 			files = (
 				19C1292B3C96F04E00D265C5 /* ViewController.swift in Sources */,
 				19C129273C96F04E00D265C5 /* AppDelegate.swift in Sources */,
+				19C129623C96F04E00D265C5 /* LoginVC.swift in Sources */,
+				19C1296F3C96F04E00D265C5 /* HomeVC.swift in Sources */,
+				19C129B13C96F04E00D265C5 /* Validation.swift in Sources */,
+				19C1297F3C96F04E00D265C5 /* InfoVC.swift in Sources */,
+				19C129843C96F04E00D265C5 /* Constants.swift in Sources */,
+				19C129743C96F04E00D265C5 /* MapVC.swift in Sources */,
+				19C129A33C96F04E00D265C5 /* TabbarController.swift in Sources */,
+				19C129A93C96F04E00D265C5 /* User.swift in Sources */,
 				19C129293C96F04E00D265C5 /* SceneDelegate.swift in Sources */,
+				19C129B63C96F04E00D265C5 /* Util.swift in Sources */,
+				19C1297A3C96F04E00D265C5 /* DrawVC.swift in Sources */,
+				19C1296A3C96F04E00D265C5 /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +525,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.subin.Reebok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +543,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.subin.Reebok;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
