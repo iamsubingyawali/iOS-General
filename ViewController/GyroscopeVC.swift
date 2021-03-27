@@ -6,28 +6,38 @@
 //
 
 import UIKit
+import CoreMotion
 
 class GyroscopeVC: UIViewController {
 
     @IBOutlet weak var btnBackInfo: UIButton!
+    let motionManager = CMMotionManager()
+    var timer: Timer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        motionManager.startAccelerometerUpdates()
+        motionManager.startGyroUpdates()
+        motionManager.startMagnetometerUpdates()
+        motionManager.startDeviceMotionUpdates()
+        
+        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(GyroscopeVC.update), userInfo: nil, repeats: true)
     }
-    
-    @IBAction func clickedBack(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
-    }
-    
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func update() {
+        print("Inside Update Fuction")
+        if let accelerometerData = motionManager.accelerometerData {
+            print(accelerometerData)
+        }
+        if let gyroData = motionManager.gyroData {
+            print(gyroData)
+        }
+        if let magnetometerData = motionManager.magnetometerData {
+            print(magnetometerData)
+        }
+        if let deviceMotion = motionManager.deviceMotion {
+            print(deviceMotion)
+        }
     }
-    */
-
 }
