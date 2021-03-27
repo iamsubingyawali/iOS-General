@@ -1,3 +1,4 @@
 # iOS-General
 
-General Purpose app in iOS
+General Purpose app for iOS using Swift
+
