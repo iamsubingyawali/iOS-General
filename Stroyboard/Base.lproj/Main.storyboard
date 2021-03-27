@@ -64,7 +64,7 @@
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.036848743674073342" green="0.62133662564766845" blue="0.010109503730821656" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
                             <constraint firstItem="WdB-Vp-k3b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BcE-rr-49F"/>
                             <constraint firstItem="lOl-ci-mZN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="EGl-Qb-dUO"/>
@@ -178,7 +178,7 @@
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gma-DR-B3t"/>
-                        <color key="backgroundColor" red="0.036848743674073342" green="0.62133662564766845" blue="0.010109503730821656" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
                             <constraint firstItem="57Q-gM-ibw" firstAttribute="centerX" secondItem="N4Y-a3-mAx" secondAttribute="centerX" id="1Yc-m9-hR9"/>
                             <constraint firstItem="fy0-Nd-Mk6" firstAttribute="top" secondItem="8bQ-IJ-KJS" secondAttribute="bottom" constant="15" id="386-Kl-iS1"/>
@@ -243,7 +243,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow.uturn.backward" catalog="system" width="128" height="112"/>
+        <image name="arrow.uturn.backward" catalog="system" width="32" height="32"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Info-->
+        <!--Gyroscope-->
         <scene sceneID="MqH-hR-ohx">
             <objects>
-                <viewController restorationIdentifier="InfoVC" storyboardIdentifier="InfoVC" id="aJd-Rx-rgT" customClass="InfoVC" customModule="Reebok" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="InfoVC" storyboardIdentifier="InfoVC" id="aJd-Rx-rgT" customClass="GyroscopeVC" customModule="Reebok" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Ps-d3-kB4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,8 +28,8 @@
                                             <action selector="clickedBack:" destination="aJd-Rx-rgT" eventType="touchUpInside" id="6cY-Zk-RaH"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tz4-3w-21Y" userLabel="lblInfo">
-                                        <rect key="frame" x="192.5" y="21.5" width="29" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gyroscope" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tz4-3w-21Y" userLabel="lblInfo">
+                                        <rect key="frame" x="165.5" y="21.5" width="83" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -53,14 +53,14 @@
                             <constraint firstItem="rjJ-hJ-NbJ" firstAttribute="leading" secondItem="42W-sQ-yN6" secondAttribute="leading" id="m1T-zz-Qbs"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Info" selectedImage="info.circle" catalog="system" id="VvJ-fI-KUo"/>
+                    <tabBarItem key="tabBarItem" title="Gyroscope" image="gyroscope" catalog="system" selectedImage="gyroscope" id="VvJ-fI-KUo"/>
                     <connections>
                         <outlet property="btnBackInfo" destination="E7E-qJ-Llc" id="bum-y6-CIe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbf-ej-znY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="85" y="1234"/>
+            <point key="canvasLocation" x="84.057971014492765" y="1233.4821428571429"/>
         </scene>
         <!--Draw-->
         <scene sceneID="ytp-4h-MaZ">
@@ -107,7 +107,7 @@
                             <constraint firstItem="Rix-sP-tCO" firstAttribute="top" secondItem="4ec-ZG-6NV" secondAttribute="top" id="x2u-4A-ivi"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Draw" selectedImage="hand.draw" catalog="system" id="BQM-Rx-q1G"/>
+                    <tabBarItem key="tabBarItem" title="Draw" image="hand.draw" catalog="system" selectedImage="hand.draw" id="BQM-Rx-q1G"/>
                     <connections>
                         <outlet property="btnDrawBack" destination="XrQ-6e-bfs" id="4Fq-Tx-z8t"/>
                     </connections>
@@ -151,18 +151,26 @@
                                     <constraint firstItem="U5G-dN-uNw" firstAttribute="centerY" secondItem="qiT-Hn-vUC" secondAttribute="centerY" id="wzX-5K-upO"/>
                                 </constraints>
                             </view>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BXH-8p-Nle">
+                                <rect key="frame" x="0.0" y="108" width="414" height="705"/>
+                            </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WE1-bI-ojR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="WE1-bI-ojR" firstAttribute="trailing" secondItem="qiT-Hn-vUC" secondAttribute="trailing" id="At7-Fx-m65"/>
                             <constraint firstItem="qiT-Hn-vUC" firstAttribute="leading" secondItem="WE1-bI-ojR" secondAttribute="leading" id="ML0-af-1uh"/>
+                            <constraint firstItem="BXH-8p-Nle" firstAttribute="leading" secondItem="WE1-bI-ojR" secondAttribute="leading" id="cdD-xf-ZoX"/>
+                            <constraint firstItem="WE1-bI-ojR" firstAttribute="bottom" secondItem="BXH-8p-Nle" secondAttribute="bottom" id="jpc-T2-5lR"/>
+                            <constraint firstItem="BXH-8p-Nle" firstAttribute="top" secondItem="qiT-Hn-vUC" secondAttribute="bottom" id="lab-Hs-4Df"/>
                             <constraint firstItem="qiT-Hn-vUC" firstAttribute="top" secondItem="WE1-bI-ojR" secondAttribute="top" id="nz1-C0-l5m"/>
+                            <constraint firstItem="WE1-bI-ojR" firstAttribute="trailing" secondItem="BXH-8p-Nle" secondAttribute="trailing" id="vjm-Jt-aWG"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" selectedImage="location.circle" catalog="system" id="ni4-u4-Ifi"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="location.circle" catalog="system" selectedImage="location.circle" id="ni4-u4-Ifi"/>
                     <connections>
                         <outlet property="btnBackMap" destination="U5G-dN-uNw" id="INb-0O-Hvm"/>
+                        <outlet property="mapView" destination="BXH-8p-Nle" id="xI1-o9-vFX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lBV-cZ-lWI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -211,7 +219,7 @@
                             <constraint firstItem="WAq-To-Ta1" firstAttribute="leading" secondItem="Kz3-iv-4Vb" secondAttribute="leading" id="o6O-q4-sBI"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" selectedImage="homekit" catalog="system" id="JuN-fM-RKy"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" selectedImage="homekit" id="JuN-fM-RKy"/>
                     <connections>
                         <outlet property="btnHomeBack" destination="33S-kG-Tay" id="zgf-rf-xDq"/>
                     </connections>
@@ -243,9 +251,9 @@
     </scenes>
     <resources>
         <image name="arrow.uturn.backward" catalog="system" width="128" height="112"/>
+        <image name="gyroscope" catalog="system" width="128" height="121"/>
         <image name="hand.draw" catalog="system" width="128" height="113"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
-        <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="location.circle" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

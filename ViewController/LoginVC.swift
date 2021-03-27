@@ -18,6 +18,8 @@ class LoginVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.textUsername.text = "subin@gyawali.com"
+        self.textPassword.text = "1234"
     }
     @IBAction func loginClicked(_ sender: Any) {
     

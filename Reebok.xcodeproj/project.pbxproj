@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19163A2E2605980500D78D6A /* MKMapViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19163A2D2605980500D78D6A /* MKMapViewExt.swift */; };
 		19C129273C96F04E00D265C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129263C96F04E00D265C5 /* AppDelegate.swift */; };
 		19C129293C96F04E00D265C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129283C96F04E00D265C5 /* SceneDelegate.swift */; };
 		19C1292B3C96F04E00D265C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C1292A3C96F04E00D265C5 /* ViewController.swift */; };
@@ -20,7 +21,7 @@
 		19C1296F3C96F04E00D265C5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C1296E3C96F04E00D265C5 /* HomeVC.swift */; };
 		19C129743C96F04E00D265C5 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129733C96F04E00D265C5 /* MapVC.swift */; };
 		19C1297A3C96F04E00D265C5 /* DrawVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129793C96F04E00D265C5 /* DrawVC.swift */; };
-		19C1297F3C96F04E00D265C5 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C1297E3C96F04E00D265C5 /* InfoVC.swift */; };
+		19C1297F3C96F04E00D265C5 /* GyroscopeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C1297E3C96F04E00D265C5 /* GyroscopeVC.swift */; };
 		19C129843C96F04E00D265C5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129833C96F04E00D265C5 /* Constants.swift */; };
 		19C129893C96F04E00D265C5 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C129883C96F04E00D265C5 /* Home.storyboard */; };
 		19C129A33C96F04E00D265C5 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129A23C96F04E00D265C5 /* TabbarController.swift */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19163A2D2605980500D78D6A /* MKMapViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewExt.swift; sourceTree = "<group>"; };
+		19163A332605A63E00D78D6A /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		19C129233C96F04E00D265C5 /* Reebok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reebok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C129263C96F04E00D265C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19C129283C96F04E00D265C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +69,7 @@
 		19C1296E3C96F04E00D265C5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		19C129733C96F04E00D265C5 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		19C129793C96F04E00D265C5 /* DrawVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawVC.swift; sourceTree = "<group>"; };
-		19C1297E3C96F04E00D265C5 /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		19C1297E3C96F04E00D265C5 /* GyroscopeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroscopeVC.swift; sourceTree = "<group>"; };
 		19C129833C96F04E00D265C5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		19C129883C96F04E00D265C5 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		19C129A23C96F04E00D265C5 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
@@ -100,9 +103,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19163A242605972400D78D6A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19163A2D2605980500D78D6A /* MKMapViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		19C1291A3C96F04E00D265C5 = {
 			isa = PBXGroup;
 			children = (
+				19163A242605972400D78D6A /* Extensions */,
 				19C129A73C96F04E00D265C5 /* Model */,
 				19C129783C96F04E00D265C5 /* Util */,
 				19C129603C96F04E00D265C5 /* Stroyboard */,
@@ -132,6 +144,7 @@
 				19C1292F3C96F04E00D265C5 /* Assets.xcassets */,
 				19C129313C96F04E00D265C5 /* LaunchScreen.storyboard */,
 				19C129343C96F04E00D265C5 /* Info.plist */,
+				19163A332605A63E00D78D6A /* Location.gpx */,
 			);
 			path = Reebok;
 			sourceTree = "<group>";
@@ -163,7 +176,7 @@
 				19C1296E3C96F04E00D265C5 /* HomeVC.swift */,
 				19C129733C96F04E00D265C5 /* MapVC.swift */,
 				19C129793C96F04E00D265C5 /* DrawVC.swift */,
-				19C1297E3C96F04E00D265C5 /* InfoVC.swift */,
+				19C1297E3C96F04E00D265C5 /* GyroscopeVC.swift */,
 				19C129A23C96F04E00D265C5 /* TabbarController.swift */,
 			);
 			path = ViewController;
@@ -332,7 +345,8 @@
 				19C129623C96F04E00D265C5 /* LoginVC.swift in Sources */,
 				19C1296F3C96F04E00D265C5 /* HomeVC.swift in Sources */,
 				19C129B13C96F04E00D265C5 /* Validation.swift in Sources */,
-				19C1297F3C96F04E00D265C5 /* InfoVC.swift in Sources */,
+				19163A2E2605980500D78D6A /* MKMapViewExt.swift in Sources */,
+				19C1297F3C96F04E00D265C5 /* GyroscopeVC.swift in Sources */,
 				19C129843C96F04E00D265C5 /* Constants.swift in Sources */,
 				19C129743C96F04E00D265C5 /* MapVC.swift in Sources */,
 				19C129A33C96F04E00D265C5 /* TabbarController.swift in Sources */,

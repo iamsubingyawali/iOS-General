@@ -1,5 +1,5 @@
 //
-//  InfoVC.swift
+//  GyroscopeVC.swift
 //  Reebok
 //
 //  Created by Subin Gyawali on 3/13/21.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class InfoVC: UIViewController {
+class GyroscopeVC: UIViewController {
 
     @IBOutlet weak var btnBackInfo: UIButton!
     override func viewDidLoad() {
