@@ -14,6 +14,7 @@ class DrawVC: UIViewController {
     @IBOutlet weak var minValue: UILabel!
     @IBOutlet weak var currValue: UILabel!
     @IBOutlet weak var maxValue: UILabel!
+    @IBOutlet weak var drawArea: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,4 +35,10 @@ class DrawVC: UIViewController {
         print("Slider Changed")
         self.currValue.text = "\(self.slider.value)"
     }
+    
+    
+    @IBAction func changeColor(_ sender: Any) {
+        self.drawArea.backgroundColor = #colorLiteral(red: 0, green: 0.3418624401, blue: 1, alpha: 1)
+    }
+    
 }

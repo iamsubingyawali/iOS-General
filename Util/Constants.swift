@@ -24,4 +24,6 @@ struct StoryboardID{
     static let DRAW_VC = "DrawVC"
     static let INFO_VC = "GyroscopeVC"
     static let TAB_BAR_CONTROLLER = "TabbarController"
+    
+    static let MENU_VC = "MenuVC"
 }

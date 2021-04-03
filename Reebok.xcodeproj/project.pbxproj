@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19163A2E2605980500D78D6A /* MKMapViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19163A2D2605980500D78D6A /* MKMapViewExt.swift */; };
+		192AD2D92618103E000279F1 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192AD2D82618103E000279F1 /* MenuVC.swift */; };
 		19C129273C96F04E00D265C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129263C96F04E00D265C5 /* AppDelegate.swift */; };
 		19C129293C96F04E00D265C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C129283C96F04E00D265C5 /* SceneDelegate.swift */; };
 		19C1292B3C96F04E00D265C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C1292A3C96F04E00D265C5 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 /* Begin PBXFileReference section */
 		19163A2D2605980500D78D6A /* MKMapViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapViewExt.swift; sourceTree = "<group>"; };
 		19163A332605A63E00D78D6A /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		192AD2D82618103E000279F1 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		19C129233C96F04E00D265C5 /* Reebok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reebok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C129263C96F04E00D265C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19C129283C96F04E00D265C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				19C129793C96F04E00D265C5 /* DrawVC.swift */,
 				19C1297E3C96F04E00D265C5 /* GyroscopeVC.swift */,
 				19C129A23C96F04E00D265C5 /* TabbarController.swift */,
+				192AD2D82618103E000279F1 /* MenuVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				19C129623C96F04E00D265C5 /* LoginVC.swift in Sources */,
 				19C1296F3C96F04E00D265C5 /* HomeVC.swift in Sources */,
 				19C129B13C96F04E00D265C5 /* Validation.swift in Sources */,
+				192AD2D92618103E000279F1 /* MenuVC.swift in Sources */,
 				19163A2E2605980500D78D6A /* MKMapViewExt.swift in Sources */,
 				19C1297F3C96F04E00D265C5 /* GyroscopeVC.swift in Sources */,
 				19C129843C96F04E00D265C5 /* Constants.swift in Sources */,
@@ -531,6 +535,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM4SGSW75F;
 				INFOPLIST_FILE = Reebok/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -549,6 +554,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM4SGSW75F;
 				INFOPLIST_FILE = Reebok/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -9,6 +9,7 @@ import UIKit
 
 class HomeVC: UIViewController {
 
+    @IBOutlet weak var btnLogout: UIView!
     @IBOutlet weak var btnHomeBack: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +17,11 @@ class HomeVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func logoutClicked(_ sender: Any) {
+        let menuVC = UIStoryboard.init(name: StoryboardName.HOME, bundle: nil).instantiateViewController(withIdentifier: StoryboardID.MENU_VC) as! MenuVC
+        self.present(menuVC, animated: true)
+    }
+    
     @IBAction func clickedBack(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
